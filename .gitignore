@@ -1,0 +1,22 @@
+# Ignore large datasets
+datasets/
+data/
+
+# Ignore papers
+papers/
+*.pdf
+
+# Ignore output, checkpoints, and temp files
+*.pt
+*.pth
+*.h5
+*.npy
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Editor / OS junk
+__pycache__/
+*.pyc
+.DS_Store
+
